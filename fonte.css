@@ -1,0 +1,6 @@
+:root{
+    --roboto: 'Roboto', sans-serif;
+--roboto-mono: 'Roboto Mono', monospace;
+}
+
+@import url('https://fonts.cdnfonts.com/css/roboto-mono');
