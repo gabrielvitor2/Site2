@@ -1,10 +1,8 @@
+@import url('https://fonts.cdnfonts.com/roboto-mono');
+
 body{
-    background-color: rgba(rgb(2, 4, 85), rgb(1, 1, 1), rgb(6, 2, 106), alpha);
+    background-color: rgb(9, 9, 62);
     color: white;
-}
+    text-align: center;
 
-.cadeado {
-    display: flex;
-    align-items: center;
 }
-
