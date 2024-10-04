@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/roboto-mono');
+@import url("https://fonts.cdnfonts.com/roboto-mono");
 
 body{
     background-color: rgb(9, 9, 62);
@@ -6,3 +6,9 @@ body{
     text-align: center;
 
 }
+
+.parametro{
+    background-color: #023b7c;
+    border: 2px solid #0075FF;
+    border-radius: 2px solid #0075ff;
+    }
