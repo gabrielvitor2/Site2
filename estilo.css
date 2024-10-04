@@ -1,14 +1,52 @@
+:root {
+    --roboto: "roboto", sans-serif;
+--roboto-mono: "roboto-mono", monospace;
+}
 @import url("https://fonts.cdnfonts.com/roboto-mono");
 
 body{
     background-color: rgb(9, 9, 62);
     color: white;
     text-align: center;
-
+    padding: 24px;
 }
 
 .parametro{
     background-color: #023b7c;
     border: 2px solid #0075FF;
-    border-radius: 2px solid #0075ff;
-    }
+    margin-top: 32px;
+}
+
+.parametro-titulo{
+font-family:var(--roboto-mono);   
+}
+
+.parametro-senha__titulo{
+    font-size:24px;
+}
+
+.parametro-coluna__senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#campo-senha{
+    background-color:royalblue;
+    border: none;
+    color: white;
+    font-family: var(--roboto-mono);
+    font-size: 40px;
+    width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+    flex-direction: column;    
+}
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
