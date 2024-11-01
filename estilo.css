@@ -10,6 +10,11 @@ body{
     text-align: center;
     padding: 24px;
 }
+.checkbox{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+ }
 
 .parametro{
     background-color: #023b7c;
